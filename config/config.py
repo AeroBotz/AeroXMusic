@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH", "96fc6b582b78a28881c6e78d06f04c4a")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "5512778238:AAEB00SmA5K_ZL3NXLALEFr2EhsyVgjHKSA")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Aero:<password>@cluster0.zhwf83q.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Aero:BotzV1@cluster0.zhwf83q.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "90")
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", BQBlG1KKxv5RYi2PzePa7CUOicypuHA-dqaYQq8XgUJYZf1MrF8jsHzQ6lLdw_PCnf7qyNHiYGmq6DyL4NnLmlf0VJGMgVMLSodiRsT-SD6RPWhtAK774tQIKCyUrVo1tDonKdjYtfHg2qXPZvJsfsRBRAMIRjh6QDEPJSvv16WGO0aiwxvYTgIPcIon-bX42uBhnm8DvFyXMtRvISqoWulNdJz1pRV7JiHVMhrcoUtspyOgoN67oIof020vfhVyhOVEZFjL0twWUDa_Zzpj6GWTjC0ud6t5iIoo_EduMc8miMJERpkavSnBevu7ANJyUWsngSMQwTsvx0PkiiAJVr0YAAAAAT5hnw0A"")
+STRING1 = getenv("STRING_SESSION", "BQBlG1KKxv5RYi2PzePa7CUOicypuHA-dqaYQq8XgUJYZf1MrF8jsHzQ6lLdw_PCnf7qyNHiYGmq6DyL4NnLmlf0VJGMgVMLSodiRsT-SD6RPWhtAK774tQIKCyUrVo1tDonKdjYtfHg2qXPZvJsfsRBRAMIRjh6QDEPJSvv16WGO0aiwxvYTgIPcIon-bX42uBhnm8DvFyXMtRvISqoWulNdJz1pRV7JiHVMhrcoUtspyOgoN67oIof020vfhVyhOVEZFjL0twWUDa_Zzpj6GWTjC0ud6t5iIoo_EduMc8miMJERpkavSnBevu7ANJyUWsngSMQwTsvx0PkiiAJVr0YAAAAAT5hnw0A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
