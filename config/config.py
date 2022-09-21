@@ -15,16 +15,16 @@ BOT_TOKEN = getenv("BOT_TOKEN", "5512778238:AAEB00SmA5K_ZL3NXLALEFr2EhsyVgjHKSA"
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Aero:BotzV1@cluster0.zhwf83q.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "90")
+    getenv("DURATION_LIMIT", "120")
 )
 
 SONG_DOWNLOAD_DURATION = int(
-    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
+    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "720")
 )
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001627514871"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Aero ✘ Music Player~🇮🇳​")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "1484735126").split())
